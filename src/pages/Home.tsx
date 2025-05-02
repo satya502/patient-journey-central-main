@@ -24,7 +24,7 @@ const Home: React.FC = () => {
               <Link to="/doctors">Find a Doctor</Link>
             </Button>
             {!isAuthenticated && (
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+              <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
                 <Link to="/register">Create an Account</Link>
               </Button>
             )}
